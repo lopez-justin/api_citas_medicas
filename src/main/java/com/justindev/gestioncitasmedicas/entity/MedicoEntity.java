@@ -14,6 +14,7 @@ import java.util.Set;
 @Entity
 @Table(name = "Medicos")
 public class MedicoEntity {
+
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "Id_Medico", nullable = false)

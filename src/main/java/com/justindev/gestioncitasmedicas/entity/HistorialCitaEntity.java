@@ -12,6 +12,7 @@ import java.time.Instant;
 @Entity
 @Table(name = "Historial_Citas")
 public class HistorialCitaEntity {
+
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "Id_Historial", nullable = false)
