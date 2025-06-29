@@ -7,14 +7,13 @@ import org.springframework.format.annotation.DateTimeFormat;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
-import java.time.LocalDate;
 import java.util.Date;
 import java.util.List;
 
 @RestController
-@RequestMapping("")
+@RequestMapping()
 @RequiredArgsConstructor
-public class ProcedimientosController {
+public class AgendaMedicoController {
 
     private final IAgendaMedicoService agendaMedicoService;
 
