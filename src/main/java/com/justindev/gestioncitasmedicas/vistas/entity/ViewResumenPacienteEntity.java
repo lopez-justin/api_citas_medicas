@@ -17,7 +17,7 @@ import java.time.Instant;
 @Setter
 @Entity
 @Immutable
-@Table(name = "VW_ResumenPacientes")
+@Table(name = "view_resumen_pacientes")
 public class ViewResumenPacienteEntity {
     @Id
     @Column(name = "Id_Paciente", nullable = false)

@@ -17,7 +17,7 @@ import java.time.LocalDate;
 @Setter
 @Entity
 @Immutable
-@Table(name = "vw_AgendaDiaria")
+@Table(name = "view_agenda_diaria")
 public class ViewAgendaDiariaEntity {
     @Id
     @Column(name = "Id_Medico", nullable = false)

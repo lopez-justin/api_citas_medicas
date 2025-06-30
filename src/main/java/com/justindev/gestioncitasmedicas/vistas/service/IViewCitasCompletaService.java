@@ -1,9 +1,9 @@
 package com.justindev.gestioncitasmedicas.vistas.service;
 
-import com.justindev.gestioncitasmedicas.vistas.entity.ViewCitasCompletaEntity;
+import com.justindev.gestioncitasmedicas.vistas.entity.ViewCitasCompletasEntity;
 
 public interface IViewCitasCompletaService {
 
-    ViewCitasCompletaEntity obtenerCitaCompletaPorId(Integer idCita);
+    ViewCitasCompletasEntity obtenerCitaCompletaPorId(Integer idCita);
 
 }

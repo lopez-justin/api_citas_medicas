@@ -15,8 +15,8 @@ import java.time.LocalDate;
 @Setter
 @Entity
 @Immutable
-@Table(name = "VW_ExpedientesCompletos")
-public class ViewExpedienteCompletoEntity {
+@Table(name = "view_expedientes_completos")
+public class ViewExpedientesCompletoEntity {
     @Id
     @Column(name = "Id_Expediente", nullable = false)
     private Integer idExpediente;
