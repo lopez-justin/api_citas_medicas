@@ -46,7 +46,6 @@ public class ConsultasController {
 
     @GetMapping("/pacientes/sin-citas-recientes")
     public ResponseEntity<List<PacientesSinCitasRecientesDTO>> getPacientesSinCitasRecientes() {
-        // Definimos la fecha límite como 6 meses atrás desde la fecha actual
         Instant fechaLimite = LocalDateTime.now().minusMonths(6).toInstant(java.time.ZoneOffset.UTC);
         List<PacientesSinCitasRecientesDTO> pacientes = consultasService.obtenerPacientesSinCitasRecientes(fechaLimite);
         return ResponseEntity.ok(pacientes);
